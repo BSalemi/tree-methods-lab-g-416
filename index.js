@@ -40,7 +40,6 @@ function min(currentNode){
   if(currentNode.left){
     return min(currentNode.left)
   } else {
-    return currentNode 
+    return currentNode
   }
 }
-
