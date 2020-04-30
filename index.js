@@ -36,4 +36,11 @@ function max(currentNode){
     return currentNode
   }
 
+function min(currentNode){
+  if(currentNode.left){
+    return min(currentNode.left)
+  } else {
+    return currentNode 
+  }
 }
+
